@@ -1,0 +1,109 @@
+
+.title {
+  color: #333;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.text {
+  color: #777;
+}
+.btn {
+  display: block;
+  width: 150px;
+  padding: 8px 0;
+  margin: 20px auto;
+  background: #4979ff;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+}
+.container{
+  /* background: blue; */
+  /* background-image: url("https://th.bing.com/th/id/OIP.4E9o3kMD5DEXBhrnKeIERwHaFe?pid=ImgDet&rs=1"); */
+  /* background-image: url("https://media.geeksforgeeks.org/wp-content/uploads/rk.png");
+
+  background-size: "cover";
+  background-repeat:no-repeat; */
+
+  margin: 50px 0;
+  background-image: url('../public/original.gif');
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.usersstyle{
+  /* background-image: url('../public/purple.jpg'); */
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  /* padding: 0 0.5rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: black;
+  /* width: 680px; */
+  /* display: block; */
+  /* max-width:1000px; */
+}
+.termcond{
+  /* display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 20px; */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: black;
+}
+
+.create {
+  /* max-width: 550px; */
+  width: 680px;
+  margin: 0 auto;
+  text-align: justify;
+  align-items: center;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* min-height: 100vh; */
+}
+.create label {
+  text-align: left;
+  /* display: block; */
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  /* padding: 6px 10px; */
+  margin: 5px 0;
+  /* border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block; */
+}
+.create button {
+  cursor: pointer;
+}
+.create button:hover {
+  color: black;
+  cursor: pointer;
+}
+.editable-row .ant-form-item-explain {
+  position: absolute;
+  top: 100%;
+  font-size: 12px;
+}
+.tablestyle {
+    /* max-width: 550px; */
+    max-width:1000px;
+    margin: 0 auto;
+    /* text-align: center; */
+    text-align: justify;
+}
